@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family:-apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    -webkit-overflow-scrolling : touch;
+}
+html,body{
+    width:100%;
+    max-width:768px;
+    height:100%;
+    margin:auto;
+    overflow:hidden;
+    -webkit-text-size-adjust:none;
+    -webkit-touch-callout:none;
+    vertical-align: middle;
+    -webkit-user-select:none;
+}
+body{
+    background:#f7fafc;
+}
+ul,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+a,div{
+    -o-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+input{
+    outline:0;
+    border:0;
+}
+button{
+    border:0;
+    outline:0;
+    background:transparent;
+}
+input[type="checkbox"] {
+    -webkit-appearance:none;
+    outline:none;
+}
+.dp-header .dp-item.dp-right{
+    color:#fe4f53 !important;         
+}
+.weui-cell_access .weui-cell__ft:after{
+    border-color: #fe4f53 !important;
+    width: 0.1875rem !important;
+    height: 0.1875rem !important;
+}
